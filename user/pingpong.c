@@ -5,6 +5,7 @@
 int
 main(int argc, char *argv[])
 {
+
     int p_f[2]; // 父进程管道
     pipe(p_f);
     int p_c[2]; // 子进程管道
